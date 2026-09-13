@@ -1,0 +1,37 @@
+name: Daily Stock Analysis
+
+on:
+  schedule:
+    # 每天清晨 5:00 UTC (台灣時間早上 13:00，或依需求調整 cron)
+    - cron: '0 21 * * *' 
+  workflow_dispatch: # 支援手動觸發
+
+jobs:
+  run-analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas requests streamlit yfinance
+
+      - name: Run daily analysis script
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+        run: |
+          python daily_job.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add daily_cache.json
+          git commit -m "chore: update daily stock cache [skip ci]" || exit 0
+          git push
