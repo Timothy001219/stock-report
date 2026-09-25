@@ -1,0 +1,12 @@
+{
+    "8390": {
+        "date": "2026-09-25",
+        "html": "<table class=\"dataframe fin-table\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th>type</th>\n      <th>date</th>\n      <th>Revenue</th>\n      <th>GrossProfit</th>\n      <th>毛利率(%)</th>\n      <th>OperatingIncome</th>\n      <th>營益率(%)</th>\n      <th>EPS</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th></th>\n      <td>2026-06-30</td>\n      <td>1696740000.0</td>\n      <td>431089000.0</td>\n      <td>25.41</td>\n      <td>352586000.0</td>\n      <td>20.78</td>\n      <td>2.29</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2026-03-31</td>\n      <td>1652950000.0</td>\n      <td>475440000.0</td>\n      <td>28.76</td>\n      <td>390367000.0</td>\n      <td>23.62</td>\n      <td>2.87</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2025-12-31</td>\n      <td>1237396000.0</td>\n      <td>297729000.0</td>\n      <td>24.06</td>\n      <td>230689000.0</td>\n      <td>18.64</td>\n      <td>1.49</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2025-09-30</td>\n      <td>990307000.0</td>\n      <td>193585000.0</td>\n      <td>19.55</td>\n      <td>136801000.0</td>\n      <td>13.81</td>\n      <td>2.37</td>\n    </tr>\n  </tbody>\n</table>",
+        "eps": 9.02
+    },
+    "5902": {
+        "date": "2026-09-25",
+        "html": "<table class=\"dataframe fin-table\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th>type</th>\n      <th>date</th>\n      <th>Revenue</th>\n      <th>GrossProfit</th>\n      <th>毛利率(%)</th>\n      <th>OperatingIncome</th>\n      <th>營益率(%)</th>\n      <th>EPS</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th></th>\n      <td>2026-06-30</td>\n      <td>569590000.0</td>\n      <td>149568000.0</td>\n      <td>26.26</td>\n      <td>69867000.0</td>\n      <td>12.27</td>\n      <td>0.60</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2026-03-31</td>\n      <td>519770000.0</td>\n      <td>126408000.0</td>\n      <td>24.32</td>\n      <td>51610000.0</td>\n      <td>9.93</td>\n      <td>0.46</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2025-12-31</td>\n      <td>503563000.0</td>\n      <td>120962000.0</td>\n      <td>24.02</td>\n      <td>51286000.0</td>\n      <td>10.18</td>\n      <td>0.45</td>\n    </tr>\n    <tr>\n      <th></th>\n      <td>2025-09-30</td>\n      <td>566471000.0</td>\n      <td>143893000.0</td>\n      <td>25.40</td>\n      <td>67034000.0</td>\n      <td>11.83</td>\n      <td>0.59</td>\n    </tr>\n  </tbody>\n</table>",
+        "eps": 2.1
+    }
+}
